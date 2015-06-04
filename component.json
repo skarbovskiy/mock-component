@@ -27,7 +27,17 @@
             "metadata": {
                 "in": "./lib/schemas/getHello.out.json",
                 "out": "./lib/schemas/getHello.out.json"
-            }
+            },
+            "fields": {
+                "dynamicSelect": {
+                    "viewClass": "SelectView",
+                    "prompt": "Select your value",
+                    "label": "Value",
+                    "required": false,
+                    "model": "getModel"
+                }
+            },
+            "dynamicMetadata": true
         }
     }
 }
