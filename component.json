@@ -24,10 +24,6 @@
         "updateHello": {
             "main": "./lib/actions/updateHello.js",
             "title": "Update Hello",
-            "metadata": {
-                "in": "./lib/schemas/getHello.out.json",
-                "out": "./lib/schemas/getHello.out.json"
-            },
             "fields": {
                 "dynamicSelect": {
                     "viewClass": "SelectView",
